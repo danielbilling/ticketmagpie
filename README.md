@@ -51,7 +51,7 @@ You can pass custom database configuration as follows:
 mvn spring-boot:run -Dspring.datasource.url=jdbc:mysql://MYSQL_SERVER:PORT/DB_NAME -Dspring.datasource.username=USER -Dspring.datasource.password=PASSWORD
 ```
 
-If you don't have a database server, you can run the application with an HSQLDB in-memory database:
+If you do not have a database server, you can run the application with an HSQLDB in-memory database:
 
 
 ```
