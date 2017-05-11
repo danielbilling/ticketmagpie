@@ -78,16 +78,20 @@ public class Ticket {
     }
 
     public String getPaymentmethod() {
-        return paymentmethod; }
+        return paymentmethod;
+    }
 
     public String getCardnumber() {
-        return cardnumber; }
+        return cardnumber;
+    }
 
     public String getCvv2() {
-        return cvv2; }
+        return cvv2;
+    }
 
     public String getExpirydate() {
-        return expirydate; }
+        return expirydate;
+    }
 
     @Override
     public String toString() {

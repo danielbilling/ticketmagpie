@@ -27,6 +27,10 @@ CREATE TABLE tickets (
   address3  VARCHAR(255),
   postcode  VARCHAR(255),
   country   VARCHAR(255),
+  paymentmethod VARCHAR(255),
+  cardnumber VARCHAR(255),
+  cvv2 VARCHAR(255),
+  expirydate VARCHAR(255),
   user      VARCHAR(255)
 );
 
