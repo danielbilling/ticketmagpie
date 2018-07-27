@@ -1,7 +1,7 @@
 TicketMagpie
 ============
 
-This project aims at demonstrating various security vulnerabilities such as the ones listed in the OWASP Top10.
+Welcome to TicketMagpie - where you can buy all the shiny tickets.
 
 Configuration
 ---------------------------
