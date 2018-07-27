@@ -34,7 +34,7 @@ Running the project in Docker
 The application is published on the docker hub. You can run it like this, with the in-memory database:
 
 ```
-docker run -e "SPRING_PROFILES_ACTIVE=hsqldb" -p8080:8080 "umotif-dbilling/ticketmagpie"
+docker run -e "SPRING_PROFILES_ACTIVE=hsqldb" -p8080:8080 "danielumotif/ticketmagpie"
 ```
 
 The application will then be available at [http://localhost:8080].
