@@ -34,6 +34,7 @@ Running the project in Docker
 The application is published on the docker hub. You can run it like this, with the in-memory database:
 
 ```
+docker pull danielumotif/ticketmagpie
 docker run -e "SPRING_PROFILES_ACTIVE=hsqldb" -p8080:8080 "danielumotif/ticketmagpie"
 ```
 
