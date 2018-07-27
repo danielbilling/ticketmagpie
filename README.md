@@ -1,7 +1,7 @@
 TicketMagpie
 ============
 
-This project aims at demonstrating various security vulnerabilities such as the ones listed in the OWASP Top10.
+Welcome to TicketMagpie - where you can buy all the shiny tickets.
 
 Configuration
 ---------------------------
@@ -34,7 +34,8 @@ Running the project in Docker
 The application is published on the docker hub. You can run it like this, with the in-memory database:
 
 ```
-docker run -e "SPRING_PROFILES_ACTIVE=hsqldb" -p8080:8080 "danielbilling/ticketmagpie"
+docker pull danielumotif/ticketmagpie
+docker run -e "SPRING_PROFILES_ACTIVE=hsqldb" -p8080:8080 "danielumotif/ticketmagpie"
 ```
 
 The application will then be available at [http://localhost:8080].
